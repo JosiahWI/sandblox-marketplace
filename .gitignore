@@ -1,0 +1,15 @@
+# Configuration Files that will be created from templates
+sandbloxmarketplace/secrets.py
+sandbloxmarketplace/settings.py
+
+# Code editor config
+.vscode/*
+
+# Python Cache
+**/__pycache__/*
+
+# Database
+db/*.sqlite3
+
+# Virtual Environment folder.
+django-env/*

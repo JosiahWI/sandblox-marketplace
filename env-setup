@@ -1,0 +1,11 @@
+#!/bin/bash
+
+MARKETPLACE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+virtualenv -p python3 $MARKETPLACE_DIR/django-env
+
+source $MARKETPLACE_DIR/django-env/bin/activate
+
+pip3 install -r requirements.txt
+
+deactivate

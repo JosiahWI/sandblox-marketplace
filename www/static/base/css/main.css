@@ -1,0 +1,98 @@
+body {
+	background-color: #000;
+	line-height: 20px;
+}
+nav {
+	height: auto;
+	padding: 20px;
+	background-color: black;
+	font-family: Roboto, Arial;
+	font-size: 20px !important;
+}
+footer {
+	color: white;
+	font-family: Qubian;
+	font-size: 30px;
+}
+span,img{
+	vertical-align: middle;
+}
+sup {
+	top: -0.3em;
+}
+h3 {
+	margin: 0px 0px 0px 0px !important;
+}
+/* TEXT CONTROL */
+@font-face {
+    font-family: Qubian;
+    src: url(../fonts/qubian.ttf);
+}
+.roboto {
+	font-family: Roboto;
+}
+.qubian {
+	font-family: Qubian;
+	color: white;
+}
+.text-large {
+	font-size: 5em;
+}
+/* END TEXT CONTROL */
+
+/* CLASSES */
+.mobile-nav-data a {
+	margin-top: 10px;
+	font-family: Roboto;
+	color: white !important;
+}
+.hover a {
+	border: none;
+	padding: 10px
+}
+.hover:hover {
+	border: white solid 1px;
+}
+.qubian-button {
+	font-family: Qubian;
+	font-size: 2em;
+}
+.qubian-sized {
+	font-family: Qubian;
+	font-size: 2em;
+}
+.input-field input + label {
+	font-family: Qubian;
+	font-size: 20px !important;
+}
+.input-field input {
+	font-family: Qubian;
+	font-size: 30px !important;
+	color: white;
+}
+.carousel {
+	margin: 0px !important;
+}
+/* IDs */
+#landing {
+	background-image: url(../img/farlands.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 13%;
+	padding-bottom: 13%;
+}
+/*
+#login {
+	background-image: url(../img/farlands.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#view {
+	background-image: url(../img/farlands.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 5%;
+	padding-bottom: 5%;
+} */

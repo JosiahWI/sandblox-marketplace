@@ -1,0 +1,5 @@
+#!/bin/bash
+
+MARKETPLACE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+source $MARKETPLACE_DIR/django-env/bin/activate

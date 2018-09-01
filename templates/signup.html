@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+
+	<body>
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper black valign-wrapper">
+					<a href="#!" class="brand-logo">
+						<img src="./assets/img/Qub3d.png" alt="" height="100px">
+					</a>
+					<a href="#" data-target="mobile-nav" class="sidenav-trigger">
+						<i class="material-icons">menu</i>
+					</a>
+					<ul class="right hide-on-med-and-down" style="margin-right: 1%; margin-left: auto;">
+						<li class="hover">
+							<a href="#">MARKETPLACE</a>
+						</li>
+						<li class="hover">
+							<a href="#">MODS</a>
+						</li>
+						<li class="hover">
+							<a href="#">TEXTURES</a>
+						</li>
+						<li class="hover">
+							<a href="#">CONTACT US</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<ul class="sidenav center-align black" id="mobile-nav">
+			<a href="#!" class="brand-logo mobile-nav-data">
+				<img src="./assets/img/Qub3d.png" alt="" height="100px">
+			</a>
+			<li class="mobile-nav-data">
+				<a href="#" class="white-text">MARKETPLACE</a>
+			</li>
+			<li class="mobile-nav-data">
+				<a href="#" class="white-text">MODS</a>
+			</li>
+			<li class="mobile-nav-data">
+				<a href="#" class="white-text">TEXTURES</a>
+			</li>
+			<li class="mobile-nav-data">
+				<a href="#" class="white-text">CONTACT US</a>
+			</li>
+			<li class="hover">
+					<a class="modal-trigger" href="#login-signup">LOG IN | SIGN UP</a>
+			</li>
+		</ul>
+		<div class="section"></div>
+		<main>
+			<center>
+				<div class="section"></div>
+	
+				<h5 class="white-text qubian text-large">MARKETPLACE LOGIN</h5>
+				<div class="section"></div>
+	
+				<div class="container">
+					<div class="z-depth-1 grey darken-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #212121;">
+						<form class="col s12" method="post">
+							<div class='row'>
+								<div class='col s12'>
+								</div>
+							</div>
+							<div class='row'>
+								<div class='input-field col s12'>
+									<input class='validate' type='text' name='username' id='username' />
+									<label for='username'>Enter your username</label>
+								</div>
+							</div>
+							<div class='row'>
+								<div class='input-field col s12'>
+									<input class='validate qubian' type='password' name='password' id='password' />
+									<label for='password'>Enter your password</label>
+								</div>
+								<label style='float: right;'>
+									<a class='white-text qubian' href='#!'>
+										<h5>Forgot Password?</h5> 
+									</a>
+								</label>
+							</div>
+							<br />
+							<center>
+								<div class='row'>
+									<button type='submit' name='btn_login' class='col s12 btn-large indigo qubian-button'>Login</button>
+								</div>
+							</center>
+						</form>
+					</div>
+				</div>
+
+				<h5><a class="qubian" href="">CREATE ACCOUNT</a></h5>
+			</center>
+	
+			<div class="section"></div>
+			<div class="section"></div>
+		</main>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.sidenav').sidenav();
+		});
+	</script>
+</html>
